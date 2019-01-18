@@ -28,7 +28,7 @@ h3 {
 
 .restrict-img-size {
 	max-height: 50%;
-	max-width: 50%;
+	max-width: calc(100%/2);
 }
 
 /* When possible, organize CSS classes in alphabetical order */
