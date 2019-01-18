@@ -1,0 +1,49 @@
+body {
+	display: flex;
+}
+
+/* When writing CSS classes it is VERY important that you use hyphen delimited strings (square-div and NOT squareDiv) */
+/* Addtionally, you should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
+/* When thinking about sizing elements on your page, there are many different units you can use = https://www.w3schools.com/cssref/css_units.asp */
+h3 {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+	height: 100%;
+	width: 100%;
+}
+.parent {
+	display: block;
+	height: 50%;
+	width: 100%;
+}
+
+.center-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.restrict-img-size {
+	max-height: 50%;
+	max-width: 50%;
+}
+
+/* When possible, organize CSS classes in alphabetical order */
+.aqua {
+	background-color: #1DAEA8;
+}
+
+.purple {
+	background-color: #9A66BE;
+}
+
+.gold {
+	background-color: #BABB83;
+}
+
+.blue {
+	background-color: #a8e0db;
+}
